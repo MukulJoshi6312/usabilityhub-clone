@@ -22,7 +22,7 @@
     .nav-links{
         position: absolute;
         background-color: white;
-        right: -100%;
+        left: -100%;
         top: 100%;
         width: 100%;
         padding-block: 20px;
@@ -31,7 +31,7 @@
     }
 
     .nav-links.active{
-        right: 0;
+        left: 0;
     }
 
     .nav-links ul{
